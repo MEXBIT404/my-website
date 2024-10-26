@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info - Mexfy Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Mexfy Web</h1>
+        <div class="info-form">
+            <h2>Your Personal Information</h2>
+            <div class="flipping-box">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="contact" placeholder="Contact Number" required>
+                <input type="text" id="instagram" placeholder="Instagram Handle" required>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <button onclick="goToLoginPage()">Save & Go Back</button>
+        </div>
+    </div>
+
+    <script>
+        function goToLoginPage() {
+            // Redirect to the login page
+            window.location.href = 'login.html'; // Make sure this matches your login page file name
+        }
+    </script>
+</body>
+</html>

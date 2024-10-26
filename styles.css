@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:/Users/Student-3CD169/Pictures/8e062c3842d25d0a09750a7e71350cc5.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker semi-transparent background for better contrast */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    display: inline-block;
+    margin-top: 100px;
+    max-width: 500px; /* Limit max width for better appearance */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+.info-form {
+    margin-top: 20px;
+}
+
+.flipping-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.flipping-box input {
+    margin: 10px;
+    padding: 15px; /* Increased padding for input fields */
+    border: 2px solid #ff6f61; /* Border color */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for input fields */
+    color: #333; /* Dark text for contrast */
+    transition: transform 0.3s, border-color 0.3s; /* Transition for focus effects */
+}
+
+.flipping-box input:focus {
+    border-color: #ff4f3d; /* Focus border color */
+    transform: scale(1.02); /* Slightly enlarge on focus */
+}
+
+button {
+    background-color: #ff6f61; /* Button color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding for buttons */
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Button shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects for buttons */
+}
+
+button:hover {
+    background-color: #ff4f3d; /* Button hover color */
+    transform: translateY(-2px); /* Lift effect on hover */
+}

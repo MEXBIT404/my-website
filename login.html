@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mexfy Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Mexfy Web</h1>
+        <div class="login-form">
+            <h2>Login Details</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Enter</button>
+        </div>
+        <div class="button-container">
+            <button onclick="showSignupMessage()">Sign Up</button>
+            <button onclick="showContactInfo()">Contact Us</button>
+            <button onclick="showAboutInfo()">About Us</button>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            // Redirect to the Instagram page when Enter is clicked
+            window.location.href = 'https://www.instagram.com/ano_nymousmex/#';
+        }
+
+        function showSignupMessage() {
+            alert('THE WEBSITE IS STILL ON PROCESS. SEEK FURTHER GUIDANCE FROM THE OWNER MEX.');
+        }
+
+        function showContactInfo() {
+            alert('Contact: 0705282205\nInstagram: https://www.instagram.com/ano_nymousmex/#');
+        }
+
+        function showAboutInfo() {
+            alert('WE are ANONYMOUS.\nWE are MUSUNGUS.');
+        }
+    </script>
+</body>
+</html>
